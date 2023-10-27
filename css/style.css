@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Header Styles */
+header {
+  background-image: url(../images/02-hero-bg.jpg);
+  color: #3946b9;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-underline-position: auto;
+}
+
+.header-left {
+  flex: 1;
+  text-align: left;
+}
+.hero-banner {
+  background-color: yellowgreen;
+  padding: 20px;
+}
+  .header-left {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .header-right {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .hero-right {
+    flex: 1;
+    text-align: right;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 20px;
+  }
+  
+  #about {
+    background-color: #15bbe4;
+    text-underline-offset: auto;
+  }
+  
+  #portfolio {
+    background-color: #1e8026;
+    text-underline-offset: auto;
+  }
+  
+  #contact-me {
+    background-color: #5d1f5f;
+    text-underline-offset: auto;
+  }
+  
+  /* Container Styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Project Styles */
+  .project {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(38, 8, 175, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .project img {
+    max-width: 50%;
+    transition: transform 0.2s;
+  }
+  /* Larger image size for the first project */
+  .project-large {
+    transform: scale(1.0); 
+    max-width: calc(100% - 10px); 
+  }
+  
+  /* Portfolio Container Styles */
+  .portfolio-container {
+    display: flex;
+   
+  }
+  
+  /* Screen Size */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .project {
+      max-width: 25%;
+    }
+  }
