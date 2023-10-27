@@ -16,7 +16,7 @@ header {
   background-image: url(../images/02-hero-bg.jpg);
   color: #3946b9;
   text-align: center;
-  padding: 20px;
+  padding: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,12 +60,12 @@ header {
   
   nav a {
     text-decoration: none;
-    color: #fff;
+    color: #fd0101;
   }
   
   /* Section Styles */
   section {
-    padding: 20px;
+    padding: 40px;
   }
   
   #about {
@@ -112,13 +112,15 @@ header {
   }
   /* Larger image size for the first project */
   .project-large {
-    transform: scale(1.0); 
-    max-width: calc(100% - 10px); 
+    display: grid;
+  grid-template-columns: 1fr;
   }
   
   /* Portfolio Container Styles */
   .portfolio-container {
     display: flex;
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
    
   }
   
