@@ -96,7 +96,7 @@ section {
 
 /* Project Styles */
 .project {
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(38, 8, 175, 0.1);
@@ -124,13 +124,13 @@ section {
   grid-template-columns: 1fr 1fr; 
 }
 
-/* Screen Size */
+/* Media Queries for Smartphones */
 @media screen and (max-width: 768px) {
   .container {
-      padding: 50%;
+      padding: 100%;
   }
 
   .project {
-      max-width: 50%;
+      max-width: 100%;
   }
 }
