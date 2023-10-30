@@ -14,7 +14,7 @@ When the page is resized or viewed on other sized devices, then the layout is re
 
 #### Mock-Up
 
-
+![PortfolioShot](https://github.com/Jimbobster/My-Portfolio/assets/146639118/63e894be-5e33-4427-9ba8-542d837461db)
 
 
 
