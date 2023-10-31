@@ -15,8 +15,7 @@ When the page is resized or viewed on other sized devices, then the layout is re
 #### Mock-Up
 
 Portfolio Screenshot : 
-![portfolio-screenshot](https://github.com/Jimbobster/My-Portfolio/assets/146639118/d187ec28-69b7-42b5-ab6c-fee40500c353)
-
+![portfolio-screenshot](https://github.com/Jimbobster/My-Portfolio/assets/146639118/9e9336ea-95d2-4c34-b1b1-dec611e5be3c)
 
 Deployed Application :
 https://jimbobster.github.io/My-Portfolio/
